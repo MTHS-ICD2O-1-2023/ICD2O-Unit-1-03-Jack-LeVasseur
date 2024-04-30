@@ -1,26 +1,44 @@
 <!DOCTYPE html>
-<!-- ICS2O-Until-03-HTLM-hello_world -->
+<!-- ICS2O-Unit1-03-HTML-hello_world -->
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="My Second webpage, with proper style">
-  <meta name="keywords" content="=" mths, ics2o">
-  <meta nam="author" content="Mr. Coxall">
+  <meta name="description" content="My second webpage, with proper style">
+  <meta name="keywords" content="=" MTHS, ICS2O">
+  <meta name="author" content="Mr. Coxall">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My first webpage, with Proper Style</title>
+  <title>Cities</title>
 </head>
+
 <style>
-  #my-header {
-    background-color: rgb(255, 165, 0);
-    color: hsl(147, 50%, 47%);
-    padding: 40px;
+  /* Style the element with the id "myHeader" */
+  #myHeader {
+    background-color: lightblue;
+    color: black;
+
+    ICS2O Programs must be written for people to read,
+    and only incidentally for machines to execute. - H. Abelson and G. Sussmanyou padding: 40px;
     text-align: center;
   }
+
+  /* Style all elements with the class name "city" */
+  .city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+  }
 </style>
-<body style="backgrpund-color:powderblue;">
-  <h1 id="my-header">Style is important</h1>
-  <p style="background-color:#ff6347;">Proper HTML style is important</p>
-  <img src="images/HTML-style-guide (1).jpeg"
-  </p>
-</body>
-</html>
+
+<body style="background-color:green;">
+  <!-- An element with a unique id -->
+  <h1 id="myHeader">Capital Cities</h1>
+
+  <!-- Multiple elements with same class -->
+  <h2 class="city">Ottawa</h2>
+  <p>Ottawa is the capital of Canada.</p>
+  <img src="./images/flag-of-Canada.png" alt="canada">
+
+  <h2 class="city">London</h2>
+
+  <p>London is the capital of England.</p>
+  <img src="./images/flag-of-United-Kingdom.png" alt="UK">
